@@ -7,14 +7,15 @@
     <title>Train-Time</title>
     <!------------------------Bootstrap CDN CSS------------------------------------------------>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <!---------------------------------------Jquery CDN---------------------------------------->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-----------------------------Bootstrap javascript CDN------------------------------------>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--------------------------------------Firebase CDN---------------------------------------->
     <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
-    <!---------------------------------------Jquery CDN---------------------------------------->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
     <!---------------------------------------Moment js CDN------------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
     
@@ -36,7 +37,7 @@
                         <h3 class="panel-title"><strong>CURRENT TRAIN SCHEDULE</strong></h3>
                   </div>
                   <div class="panel-body">
-                        <table class="table table-hover" id="trainTable">
+                     <table class="table table-hover" id="trainTable">
                             <thead>
                                 <tr>
                                     <th>Train Name</th>
@@ -46,10 +47,10 @@
                                     <th>Minutes Away</th>
                                 </tr>
                             </thead>
-                        </table>
                         <tbody>
                             <!--LEAVE THIS EMPTY-->
                         </tbody>
+                     </table>
                   </div>
             </div>
         </div>
